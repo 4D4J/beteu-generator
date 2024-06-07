@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container"></div>
@@ -21,26 +19,27 @@
         </div>
         <div class="content">
             <div class="name">
-                <input type="text" id="NAME" placeholder="enter a name">
+                <input type="text" id="NAME" placeholder="Enter a name">
             </div>
-            <div class="bouton" onclick="BeteuSize()">
+            <div class="bouton">
                 <p>Generate</p>
             </div>
             <div class="result">
-                <p id="RESULT">
-                    the size of this name is : *****
-                </p>
+                <p id="RESULT">The size of this name is: *****</p>
             </div>
-            <h2 id="COM">
-            </h2>
+            <h2 id="COM"></h2>
+        </div>
+        <div class="generation">
+            <div class="loader"></div>
+            <p id="TXT_TROLL">Name analysis 📊📊</p>
         </div>
         <div class="footer">
             <div class="credit">
-                <p>Dev by <a href="https://github.com/4d4j" >Nàt</a></p>
+                <p>Dev by <a href="https://github.com/4d4j" target="_blank">Nàt</a></p>
             </div>
         </div>
     </div>
-    <script src="./js/emoji.js"></script>
     <script src="./js/generator.js"></script>
+    <script src="./js/emoji.js"></script>
 </body>
 </html>
