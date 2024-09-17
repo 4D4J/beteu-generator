@@ -67,10 +67,10 @@ function BeteuSize() {
         case randomNumber < 40:
             commentary.textContent = "It's pretty good bro nice size 👍👍";
             break;
-        case randomNumber >= 50:
+        case randomNumber <= 50:
             commentary.textContent = "Sorry Sensei 😮";
             break;
-        case randomNumber === 100:
+        case randomNumber >= 100:
             commentary.textContent = "Hello penis master 🤯🤯";
             break;
         default:
